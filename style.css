@@ -59,11 +59,22 @@ footer p{
     font-size: 50px;
 }
 
-main .projects, .school{
+.main .projects{
     text-align: center;
     font-size: 20px;
-    margin-top: 10px;
     color: crimson;
+    margin-top: 10px;
+}
+
+.school{
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+    color: crimson;
+    margin: 30px auto 10px auto;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
 }
 
 .link-bar{
@@ -74,7 +85,6 @@ main .projects, .school{
     padding: 0px;
     z-index: 10;
     background-color: coral;
-    display: block;
     text-align: center;
     padding: 2px;
 }
@@ -99,7 +109,30 @@ main .projects, .school{
     margin-top: 1in;
 }
 
-.box{
+.esmpic{
+    vertical-align: middle;
+}
+.esm .box{
+    color: #F2BC94;
+    background-color: #30110D;
+    padding: 20px;
+    background-image: url("Gif/giphy.gif");
+    display: inline-block;
+}
+
+.banerjeepic{
+    vertical-align: middle;
+}
+.banerjee .box{
+    color: #F2BC94;
+    background-color: #30110D;
+    padding: 20px;
+    background-image: url("Gif/giphy.gif");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.project-box{
     color: #F2BC94;
     background-color: #30110D;
     padding: 20px;
@@ -109,13 +142,13 @@ main .projects, .school{
     margin-top: 10px;
 }
 
-.box th{
+.box th, .project-box th{
     background-color: green;
     padding: 0 20px;
     text-align: center;
 }
 
-.box td{
+.box td, .project-box td{
     color: salmon;
     padding: 0 20px;
     text-align: center;
