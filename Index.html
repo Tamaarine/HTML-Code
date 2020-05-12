@@ -2,27 +2,61 @@
 <html>
     <head>
         <title>Homepage</title>
-        <link rel="stylesheet" href="ExampleCSS.css" />
+        <link rel="stylesheet" href="style.css" />
     </head>
 
     <body>
-        <a href="./AboutMe.html">About Me</a>
-        <a href="./Contact.html">Contacts</a>
-        <h1>Whalecome!</h1>
-        <h3>List of projects I have completed</h3>
-        <a href="" target="_blank">Hackathon 2019 Porject - </a>
+        <nav class="link-bar">
+            <ul>
+                <li>
+                    <a href="./AboutMe.html">About Me</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="./Contact.html">Contacts</a>
+                </li>
+            </ul>
+            
+        </nav>
+        
+        <div class="main">
+            <h1 class="intro">Welcome to my personal WEBPAGE!</h1>
+            <h3 class="projects">List of personal projects I have completed</h3>
+            <table class="box">
+                <tr>
+                    <th>Project</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>Hackathon 2019 Porject</td>
+                    <td>To be added</td>
+                </tr>
+                <tr>
+                    <td>Python Projects</td>
+                    <td><a href="https://github.com/Tamaarine/python_projects">Link</a></td>
+                </tr>
+            </table>
+        </div>
 
-        <a href="https://github.com/Tamaarine/python_projects" target="_blank">Python Projects</a> <br>
-
-        <h3>CSE 215 Projects</h3>
-        <a>To be filled</a>
-        <table>
-            <tr>
-                <th>Project</th>
-            </tr>
-        </table>
-        <h3>CSE 216 Projects</h3>
         <div>
+            <h3 class="school">List of school Projects</h3>
+            <div class="esm">
+                <h3>CSE 215 Projects</h3>
+                <h2>Professor: Ahmad Esmaili</h2>
+                <img src="./Pic/esm.jpg"> <br>
+                <table class="box">
+                    <tr>
+                        <th>Project</th>
+                        <th>Link</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class="banerjee">
+            <h3>CSE 216 Projects</h3>
+            <h2>Professor: Ritwik Banerjee</h2>
+            <img src="./Pic/banerjee.jpg"/>
             <table class="box">
                 <tr>
                     <th>Project</th>
@@ -52,8 +86,23 @@
                     </td>
                     <td><a href="https://bitbucket.org/rickylu817/cse216-hw4/src/master/" target="_blank">Link</a></td>
                 </tr>
+                <tr>
+                    <td>
+                        Python polymorphism
+                    </td>
+                    <td><a href="https://bitbucket.org/rickylu817/cse216-hw5/src/master/" target="_blank">Link</a></td>
+                </tr>
             </table>
-            <audio src="escapist.mp4" controls autoplay>Unsupported</audio>
         </div>
+
+        <footer>
+            <audio src="./Vid/escapist.mp4" controls>Unsupported</audio>
+            <p>
+                Note: This is just a little exercise to test my own capability from learning things by myself online. It serves no purpose
+                other than a little materialization of my own imagination.           
+            </p>
+            <audio src="Vid/winter.mp3" controls>Unsupported</audio>
+            <p>Cool song btw</p>
+        </footer>
     </body>
 </html>

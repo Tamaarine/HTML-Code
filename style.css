@@ -1,0 +1,130 @@
+/* Resetting the margin, padding, border of every elements*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* This is all the tag's selector */
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover{
+    color: pink;
+}
+
+footer p{
+    margin: 10px 0px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-repeat: no-repeat;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+
+ul{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+li{
+    display: inline;
+    list-style: none;
+}
+
+.main{
+    position: relative;
+    top: 20px;
+}
+
+footer p{
+    font-family: 'Courier New';
+}
+
+/* All the class's selectorr */
+.intro{
+    color: rgb(161, 48, 236);
+    background-color: rgb(161, 54, 40);
+    position: relative;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 50px;
+}
+
+main .projects, .school{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    color: crimson;
+}
+
+.link-bar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    z-index: 10;
+    background-color: coral;
+    display: block;
+    text-align: center;
+    padding: 2px;
+}
+
+.red
+{
+    color: red;
+}
+
+.thick
+{
+    font-size: 20px;
+}
+
+.green
+{
+    color: green;
+}
+
+.idk
+{
+    margin-top: 1in;
+}
+
+.box{
+    color: #F2BC94;
+    background-color: #30110D;
+    padding: 20px;
+    margin: auto;
+    background-image: url("Gif/giphy.gif");
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.box th{
+    background-color: green;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.box td{
+    color: salmon;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.esm{
+    text-align: center;
+}
+
+.banerjee{
+    text-align: center;
+}
